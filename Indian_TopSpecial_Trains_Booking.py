@@ -3,9 +3,9 @@ class Train:
         self.train_name = train_name
         self.seats = seats
         self.fare = fare
-        self.class_type = class_type  # e.g., Sleeper, AC, etc.
-        self.departure_time = departure_time  # New attribute
-        self.arrival_time = arrival_time      # New attribute
+        self.class_type = class_type  # e.g., Sleep,Ac
+        self.departure_time = departure_time  
+        self.arrival_time = arrival_time    
         self.booked_seats = 0
 
     def book_ticket(self,numberofseats):

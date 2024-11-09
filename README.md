@@ -3,6 +3,7 @@
 A mimi project for booking India's top 10 special trains
 
 #ABOUT THIS PROJECT
+
 This was a **mini project** created to apply and enhance my understanding of **Object Oriented Programming** concepts in Python.
 The Main goal was to design a simple booking sysytem by using classes and objects to represent trains and their attributes.
 The details provided ,such as fares,departure times, available seats, are simply examples and may not  reflect real world data.

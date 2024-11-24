@@ -29,6 +29,7 @@ def book_train(train_number,numberofseats):#this fuction is called inside book f
         if numberofseats<=trains[train_number].seats and trains[train_number].seats!=0 and numberofseats <= trains[train_number].seats+trains[train_number].booked_seats and numberofseats!=0:
             trains[train_number].book_ticket(numberofseats)
             print(f"{numberofseats} ticket booked successfully on train {trains[train_number].train_name} ")
+            print(f"the total fare for {numberofseats} seats is :" ,numberofseats*(trains[train_number].fare));
             print(f"remaining seats are {trains[train_number].seats}")
         else:
             if trains[train_number].seats ==0:

@@ -57,8 +57,16 @@ This project demonstrates the following OOP concepts:
 ```bash
 git clone https://github.com/SanikaGL/train-reservation-system.git
 ```
+
 2.Move into the project folder:
+
+```bash
 cd train-reservation-system
+```
+
 3.Run the Python file:
+
+```bash
 python main.py
+```
 

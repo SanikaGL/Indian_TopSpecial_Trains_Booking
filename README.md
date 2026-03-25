@@ -1,17 +1,73 @@
-# Indian_TopSpecial_Trains_Booking
+# Train Reservation System
 
-A mimi project for booking India's top 10 special trains
+A **console-based Train Reservation System** built using **Python** to demonstrate **Object-Oriented Programming (OOP)** concepts such as classes, objects, methods, attributes, and booking logic.
 
-#ABOUT THIS PROJECT
+This project simulates a simple railway ticket booking platform where users can:
 
-This was a **mini project** created to apply and enhance my understanding of **Object Oriented Programming** concepts in Python.
-The Main goal was to design a simple booking sysytem by using classes and objects to represent trains and their attributes.
-The details provided ,such as fares,departure times, available seats, are simply examples and may not  reflect real world data.
-And through this project i learnt how important this **OOP** concept is ...
+- View available trains
+- Check train details
+- View fare information
+- Book tickets
+- Track booked and available seats
 
-#FEATURES
-* This project allows user to book tickets on India's most iconic and 
-special train,such as the Vande Barath Express and Rajdhani Express.
-* it includes functionality to check train details and
-  make multiple bookings as desired
+---
 
+## Features
+
+- Display list of available trains
+- View train details such as:
+  - Train name
+  - Class type
+  - Departure time
+  - Arrival time
+  - Total seats
+  - Available seats
+- Book one or more seats
+- Calculate total fare
+- Prevent invalid bookings such as:
+  - Booking zero seats
+  - Booking more seats than available
+  - Booking on unavailable trains
+
+---
+
+## Tech Stack
+
+- **Language:** Python
+- **Concepts Used:** Object-Oriented Programming (OOP), Conditional Statements, Loops, Functions, Dictionary Data Structure
+
+---
+
+## OOP Concepts Demonstrated
+
+This project was created primarily to showcase **OOP skills** in Python.
+
+### Class Used
+- `Train`
+
+### Object Attributes
+Each train object stores:
+- `train_name`
+- `seats`
+- `fare`
+- `class_type`
+- `departure_time`
+- `arrival_time`
+- `booked_seats`
+
+### Methods Used
+- `book_ticket()` → Books seats and updates seat count
+- `get_status()` → Displays train details and seat availability
+- `get_fare_info()` → Displays fare information
+
+This project demonstrates how **real-world entities (trains)** can be modeled using **classes and objects**.
+
+---
+
+## Project Structure
+
+```bash
+train-reservation-system/
+│
+├── main.py
+└── README.md
